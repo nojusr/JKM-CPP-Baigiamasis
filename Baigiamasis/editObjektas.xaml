@@ -1,0 +1,50 @@
+﻿<Window x:Class="Baigiamasis.editObjektas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Keisti objektą" Height="421.859" Width="371.416">
+    <Grid Height="382" VerticalAlignment="Top" HorizontalAlignment="Left" Width="383">
+        <Label x:Name="obid_label" Content="ID =" Margin="5,7,345,349"/>
+        <Label Content="Adresas:" HorizontalAlignment="Right" Margin="0,0,335,327" VerticalAlignment="Bottom" FontSize="9"/>
+        <TextBox x:Name="ob_addr" Margin="10,51,39,309" TextWrapping="Wrap" Text="TextBox"/>
+        <Label Content="Nuomininkas:" Margin="5,153,314,207" FontSize="9"/>
+        <Button Content="Vykdyti pakeitimus" HorizontalAlignment="Right" Margin="0,0,38,4" VerticalAlignment="Bottom" Width="118"  RenderTransformOrigin="0.48,3.267" Click="Button_Click_1"/>
+        <ComboBox x:Name="ob_nuom" Margin="11,171,38,189" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light">
+            <ComboBoxItem Content="Elektra" />
+            <ComboBoxItem Content="Vanduo"/>
+            <ComboBoxItem Content="Dujos" />
+            <ComboBoxItem Content="Internetas"/>
+        </ComboBox>
+        <Label Content="Kvadratūra:" Margin="5,73,323,287" FontSize="9"/>
+        <TextBox x:Name="ob_kvad" Margin="10,91,39,269" TextWrapping="Wrap" Text="TextBox"/>
+        <Label Content="Vandens operatorius:" Margin="5,193,285,167" FontSize="9"/>
+        <ComboBox x:Name="ob_void" Margin="11,211,38,149" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light">
+            <ComboBoxItem Content="Elektra" />
+            <ComboBoxItem Content="Vanduo"/>
+            <ComboBoxItem Content="Dujos" />
+            <ComboBoxItem Content="Internetas"/>
+        </ComboBox>
+        <Label Content="Dujų/šilumos operatorius:" Margin="5,233,266,127" FontSize="9"/>
+        <ComboBox x:Name="ob_doid" Margin="11,251,38,109" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light">
+            <ComboBoxItem Content="Elektra" />
+            <ComboBoxItem Content="Vanduo"/>
+            <ComboBoxItem Content="Dujos" />
+            <ComboBoxItem Content="Internetas"/>
+        </ComboBox>
+        <Label Content="Elektros operatorius:" Margin="5,273,287,87" FontSize="9"/>
+        <ComboBox x:Name="ob_eoid" Margin="11,291,38,69" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light">
+            <ComboBoxItem Content="Elektra" />
+            <ComboBoxItem Content="Vanduo"/>
+            <ComboBoxItem Content="Dujos" />
+            <ComboBoxItem Content="Internetas"/>
+        </ComboBox>
+        <Label Content="Interneto operatorius:" Margin="5,313,282,47" FontSize="9"/>
+        <ComboBox x:Name="ob_ioid" Margin="11,331,38,29" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light">
+            <ComboBoxItem Content="Elektra" />
+            <ComboBoxItem Content="Vanduo"/>
+            <ComboBoxItem Content="Dujos" />
+            <ComboBoxItem Content="Internetas"/>
+        </ComboBox>
+        <Label Content="Nuoma:" Margin="6,113,322,247" FontSize="9"/>
+        <TextBox x:Name="ob_nkaina" Margin="11,131,38,229" TextWrapping="Wrap" Text="TextBox"/>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Name="splash" x:Class="Baigiamasis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="350" Width="525" ResizeMode="NoResize" BorderBrush="#FFAA4D4D" Foreground="#FFABC6FF" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Building-PNG.png"/>
+    </Window.Background>
+
+
+
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="90" Margin="10,250,0,0" VerticalAlignment="Top" Width="423"/>
+        <Label Content="Sukurta Nojaus Raškevičiaus  P-6/1R" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.579,0.154" Background="{x:Null}" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light" FontSize="13"/>
+        <Label Content="Nekilnojamo turto apskaitos sistema." HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="423" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light" FontSize="24" Background="{x:Null}"/>
+        <Button Content="Tęsti" HorizontalAlignment="Left" Margin="347,308,0,0" VerticalAlignment="Top" Width="75" BorderBrush="Black" Click="Button_Click_2" FontFamily="/Baigiamasis;component/Resources/#IBM Plex Sans Light">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
